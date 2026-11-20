@@ -14,12 +14,12 @@ const SITE = {
   ],
   // To use your own photo: put it in the images folder (e.g. images/me.jpg)
   // and change this to "images/me.jpg"
-  avatar: "images/avatar.svg",
+  avatar: "avatar.svg",
   // Contact / social links. Remove any you don't want.
   links: [
-    { label: "✉ Email",    href: "mailto:your-email@example.com" },
+    { label: "✉ Email",    href: "mailto:debendu003@gmail.com" },
     { label: "GitHub",     href: "https://github.com/your-username" },
-    { label: "LinkedIn",   href: "https://www.linkedin.com/in/your-profile" }
+    { label: "LinkedIn",   href: "https://www.linkedin.com/in/debendu-dutta-0b9a21238" }
   ]
 };
 
@@ -30,7 +30,7 @@ const JOURNEY = [
     when: "Present",
     title: "MSc Mathematics",
     place: "Indian Institute of Technology (IIT) Bombay",
-    text: "Postgraduate studies in Mathematics at one of India's premier institutes.",
+    text: "Postgraduate studies in Pure Mathematics at one of India's premier institutes.",
     current: true
   },
   {
@@ -66,7 +66,7 @@ const POSTS = [
     title: "Welcome to my notebook",
     date: "2026-11-21",
     tags: ["Personal"],
-    cover: "images/art-spiral.svg",
+    cover: "art-spiral.svg",
     excerpt: "Why I started this site, and what you can expect to find here.",
     content: `
       <p>Hello! I'm Debendu. This site is a place for the things I think about: mathematics, learning, and life as a student far from where I started.</p>
@@ -85,7 +85,7 @@ const POSTS = [
     title: "Why I fell in love with mathematics",
     date: "2026-11-20",
     tags: ["Mathematics", "Personal"],
-    cover: "images/art-waves.svg",
+    cover: "art-waves.svg",
     excerpt: "From a village school to IIT Bombay, the story of a growing obsession with patterns.",
     content: `
       <p>Write your own story here. Replace this text with what first made you curious about numbers, and which teachers or books shaped you.</p>
@@ -98,7 +98,7 @@ const POSTS = [
     title: "A tiny proof I love: odd numbers and squares",
     date: "2026-11-19",
     tags: ["Mathematics"],
-    cover: "images/art-lissajous.svg",
+    cover: "art-lissajous.svg",
     excerpt: "The sum of the first n odd numbers is always a perfect square. Here's a picture-proof.",
     content: `
       <p>Add the first few odd numbers:</p>
@@ -121,8 +121,7 @@ const DOCS = [
 /* ---------- Photo gallery ----------
    Put photos in the "images" folder and list them here.                   */
 const GALLERY = [
-  { src: "images/art-spiral.svg",    caption: "Nested squares: symmetry in rotation" },
-  { src: "images/art-waves.svg",     caption: "Waves: sine curves in harmony" },
-  { src: "images/art-lissajous.svg", caption: "Rotating ellipses: a rose of curves" }
-  // { src: "images/my-photo.jpg", caption: "IIT Bombay campus" },
+  { src: "art-spiral.svg",    caption: "Nested squares: symmetry in rotation" },
+  { src: "art-waves.svg",     caption: "Waves: sine curves in harmony" },
+  { src: "art-lissajous.svg", caption: "Rotating ellipses: a rose of curves" }
 ];
